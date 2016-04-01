@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+    <!--locator of page map info -->
+    <page pageName="com.ctry.libarary.pages.LoginPage">
+        <!--Locator lists -->
+        <locator type="name" timeOut="5" value="loginName">loginNameInputBox</locator>
+	<locator type="name" timeOut="5" value="loginPwd">loginPasswordInputBox</locator>
+	<locator type="id" timeOut="3" value="loginBtn">loginButton</locator>
+    </page>
+    <page pageName="com.ctry.libarary.pages.NavigationTreePage">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="3" value="//li[1]/h4">dishButton</locator>
+	<locator type="xpath" timeOut="5" value="//li[1]/ul/li[1]">dishCategoryButton</locator>
+    </page>
+</map>

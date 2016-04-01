@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.ctry.libarary.utils.RetryListener"/>
+    <listener class-name="com.ctry.libarary.utils.TestngListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.ctry.tests.Erp_dish_3_switchDC">
+        <methods>
+          <include name="stop"/>
+          <include name="swichDishCategory"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ctry.tests.Erp_dish_3_switchDC -->
+      <class name="com.ctry.tests.Erp_login_2_loginIE">
+        <methods>
+          <include name="stop"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ctry.tests.Erp_login_2_loginIE -->
+      <class name="com.ctry.tests.Erp_login_1_loginFF">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- com.ctry.tests.Erp_login_1_loginFF -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
